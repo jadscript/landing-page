@@ -3,12 +3,12 @@
   "navbar": {
     "home": "Início",
     "about": "Sobre",
-    "works": "Trabalhos",
+    "works": "Experiências",
     "contact": "Contato"
   },
   "home": {
     "title": "Desenvolvendo para Pessoas Incríveis",
-    "description": "Desenvolvendo há mais de 8 anos com paixão por construir as melhores aplicações web",
+    "description": "Desenvolvendo há mais de {{years}} anos com paixão por construir as melhores aplicações web",
     "hireMe": "Contrate-me!",
     "position-1": "Desenvolvedor Full Stack",
     "position-2": "Desenvolvedor Backend",
@@ -16,7 +16,12 @@
   },
   "about": {
     "words": "Descobrindo, Construindo, Inovando",
-    "title": "Sobre Mim",
-    "description": "Sou um desenvolvedor full stack com paixão por construir as melhores aplicações web"
+    "title": "Sou fascinado por desafios e soluções criativas",
+    "paragraph-1": "Me chamo Jadson Teixeira e sou engenheiro full stack sênior com mais de 8 anos de experiência em desenvolvimento de software, com foco na construção de aplicações web escaláveis e de alta performance.",
+    "paragraph-2": "Tenho forte domínio em Java, Spring Boot, Node, Nest.js, React, Next.js e práticas modernas de UI/UX, além de conhecimento sólido em desenvolvimento full stack envolvendo APIs, bancos de dados e serviços em nuvem.",
+    "paragraph-3": "Atuo principalmente com sistemas de alta disponibilidade para ambientes de IA e fintech, sou apaixonado por código limpo, testes automatizados (unitários, integração e E2E), metodologias ágeis, CI/CD e aprimoramento contínuo técnico e pessoal."
+  },
+  "social": {
+    "title": "Siga-me em:"
   }
 }
