@@ -15,7 +15,7 @@ const Navbar = () => {
       href: "#contact",
       label: t("navbar.contact"),
       icon: (
-        <ArrowRight className="w-6 h-6 text-white bg-black rounded-full p-1" />
+        <ArrowRight className="w-6 h-6 text-white bg-black rounded-full p-1 animate-left-to-right" />
       ),
       className: "mx-6 bg-gray-100 pr-0",
     },

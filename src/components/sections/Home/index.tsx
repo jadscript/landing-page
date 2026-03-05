@@ -4,13 +4,24 @@ import { getWorkingYears } from "../../../utils/date";
 
 const HomeSection = () => {
   const { t } = useTranslation();
+
+  const scrollTo = (target: string) => {
+    window.scrollTo({ top: getTarget(target), behavior: "smooth" });
+  };
+  const getTarget = (target: string) => {
+    if (target === "#home") {
+      return 0;
+    }
+    const targetElement = document.getElementById(target.replace("#", ""));
+    return targetElement?.offsetTop || 0;
+  };
   
   return (
     <section id="home" className="grid grid-cols-12 gap-4 mt-16">
       <div className="flex flex-col justify-center gap-6 col-span-7">
         <h1 className="text-6xl font-bold leading-20">{t("home.title")}</h1>
         <p className="max-w-md leading-6 opacity-60">{t("home.description", { years: getWorkingYears() })}</p>
-        <button className="bg-linear-to-r from-cyan-300 to-lime-300 pl-6 gap-6 rounded-full font-medium w-fit flex items-center justify-center cursor-pointer hover:from-teal-300 hover:to-lime-300 transition-colors duration-300">
+        <button onClick={() => scrollTo("#contact")} className="bg-linear-to-r from-cyan-300 to-lime-300 pl-6 gap-6 rounded-full font-medium w-fit flex items-center justify-center cursor-pointer hover:from-teal-300 hover:to-lime-300 transition-colors duration-300">
           <span className="text-lg font-semibold">{t("home.hireMe")}</span>
           <div className="flex items-center justify-center bg-black rounded-full p-2 text-white m-1 animate-left-to-right">
             <ArrowRight className="w-5 h-5" />

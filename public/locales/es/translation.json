@@ -76,5 +76,12 @@
       "cmsAndMarketing": "CMS y Marketing",
       "collaborationTools": "Herramientas de Colaboración"
     }
+  },
+  "footer": {
+    "title": "¿Hablamos?",
+    "emailLabel": "Enviar correo",
+    "whatsappLabel": "Abrir WhatsApp",
+    "scheduleButton": "Agendar una conversación",
+    "scheduleLabel": "Agendar conversación conmigo"
   }
 }

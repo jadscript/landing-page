@@ -80,5 +80,12 @@
       "cmsAndMarketing": "CMS and Marketing",
       "collaborationTools": "Collaboration Tools"
     }
+  },
+  "footer": {
+    "title": "Let's talk?",
+    "emailLabel": "Send email",
+    "whatsappLabel": "Open WhatsApp",
+    "scheduleButton": "Schedule a conversation",
+    "scheduleLabel": "Schedule a conversation with me"
   }
 }

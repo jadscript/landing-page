@@ -118,7 +118,7 @@ const SkillsSection = () => {
   return (
     <section
       id="skills"
-      className="bg-black text-white flex flex-col gap-12 py-16 px-4 md:px-6 rounded-3xl mt-10"
+      className="bg-black text-white flex flex-col gap-12 py-16 px-4 md:px-6 mt-10 z-10 relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]"
     >
       <h2 className="text-4xl md:text-5xl font-bold text-center max-w-2xl mx-auto leading-14">
         {t("skills.title", { years: getWorkingYears() })}

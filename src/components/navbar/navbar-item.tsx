@@ -10,6 +10,7 @@ interface NavbarItemProps {
 const NavbarItem: FC<NavbarItemProps> = ({ href, label, icon, className }) => {
   const scrollTo = (target: string) => {
     window.scrollTo({ top: getTarget(target), behavior: "smooth" });
+    window.history.pushState({}, "", target);
   };
   const getTarget = (target: string) => {
     if (target === "#home") {
@@ -22,7 +23,7 @@ const NavbarItem: FC<NavbarItemProps> = ({ href, label, icon, className }) => {
     <li
       className={`${className} hover:bg-gray-100 rounded-full px-3 py-1 transition-all duration-300`}
     >
-      <a  className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo(href)}>
+      <a className="flex items-center gap-2 cursor-pointer" onClick={() => scrollTo(href)}>
         {label} {icon}
       </a>
     </li>
