@@ -1,9 +1,18 @@
 import { HomeSection } from "./components/sections";
 import { CodeIcon } from "lucide-react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 function App() {
   const { t } = useTranslation();
+
+  const pageTitle = t("pageTitle");
+  useEffect(() => {
+    document.title = pageTitle;
+  }, [pageTitle]);
+
+
+  
   const words = t("about.words") as string;
   const baseWordsArray = words
     .split(",")

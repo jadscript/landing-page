@@ -9,7 +9,7 @@ interface LanguageSwitcherProps {
 const languages = [
   { code: "pt", flag: "fi fi-br" },
   { code: "es", flag: "fi fi-es" },
-  { code: "en", flag: "fi fi-us" },
+  { code: "en-US", flag: "fi fi-us" },
 ];
 
 const LanguageSwitcher: FC<LanguageSwitcherProps> = ({ className }) => {
