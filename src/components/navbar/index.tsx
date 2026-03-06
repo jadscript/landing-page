@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* Mobile / tablet */}
         <div className="flex items-center justify-between py-3 lg:hidden">
-          <h1 className="text-xl font-bold font-fira-code">jadscript.dev</h1>
+          <h1 className="text-xl font-bold font-fira-code" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>jadscript.dev</h1>
           <div className="flex items-center gap-2">
             <LanguageSwitcher className="flex" />
             <button
