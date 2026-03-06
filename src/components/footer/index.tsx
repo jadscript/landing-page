@@ -21,15 +21,6 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6">
           <a
-            href={`mailto:${EMAIL}`}
-            className="flex items-center gap-2 px-4 py-3 rounded-lg bg-white hover:bg-gray-100 transition-colors text-black"
-            aria-label={t("footer.emailLabel")}
-          >
-            <Mail className="w-5 h-5 text-cyan-700 shrink-0" />
-            <span className="text-sm md:text-base break-all">{EMAIL}</span>
-          </a>
-
-          <a
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
@@ -49,6 +40,15 @@ const Footer = () => {
           >
             <Calendar className="w-5 h-5 shrink-0" />
             <span className="text-sm md:text-base">{t("footer.scheduleButton")}</span>
+          </a>
+
+          <a
+            href={`mailto:${EMAIL}`}
+            className="flex items-center gap-2 px-4 py-3 rounded-lg bg-white hover:bg-gray-100 transition-colors text-black"
+            aria-label={t("footer.emailLabel")}
+          >
+            <Mail className="w-5 h-5 text-cyan-700 shrink-0" />
+            <span className="text-sm md:text-base break-all">{EMAIL}</span>
           </a>
         </div>
 

@@ -44,7 +44,7 @@ const AboutSection = () => {
             {t("about.titleHighlight2")}
           </span>
         </h2>
-        <div className="flex flex-col gap-8 max-w-4xl mx-auto">
+        <div className="flex flex-col gap-8 max-w-4xl mx-auto px-2 md:px-0">
           <p className="opacity-60">{t("about.paragraph-1")}</p>
           <p className="opacity-60">{t("about.paragraph-2")}</p>
           <p className="opacity-60">{t("about.paragraph-3")}</p>
