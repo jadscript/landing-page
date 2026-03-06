@@ -7,7 +7,7 @@ interface LanguageSwitcherProps {
 }
 
 const languages = [
-  { code: "pt", flag: "fi fi-br" },
+  { code: "pt-BR", flag: "fi fi-br" },
   { code: "es", flag: "fi fi-es" },
   { code: "en-US", flag: "fi fi-us" },
 ];
