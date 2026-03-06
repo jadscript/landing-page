@@ -33,7 +33,7 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <section id="about" className="flex flex-col gap-16 py-8 pt-20">
+      <section id="about" className="flex flex-col gap-8 lg:gap-16 py-8 pt-20">
         <h2 className="lg:text-5xl text-4xl font-bold text-center max-w-2xl mx-auto lg:leading-14 leading-10">
           {t("about.titlePrefix")}
           <span className="bg-linear-to-r from-cyan-400 to-lime-400 bg-clip-text text-transparent">

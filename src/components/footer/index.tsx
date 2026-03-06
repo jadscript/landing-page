@@ -4,7 +4,7 @@ import { Mail, MessageCircle, Calendar } from "lucide-react";
 const EMAIL = "jadsonalexandreg@gmail.com";
 const WHATSAPP_NUMBER = "5583988455567";
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
-const BOOKING_LINK = "https://calendly.com/jadsonalexandreg/30min"; // Substitua pela sua URL (Calendly, Cal.com, etc.)
+const BOOKING_LINK = "https://calendly.com/jadsonalexandreg/30min";
 
 const Footer = () => {
   const { t } = useTranslation();
