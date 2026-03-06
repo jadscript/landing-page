@@ -120,7 +120,7 @@ const SkillsSection = () => {
       id="skills"
       className="bg-black text-white flex flex-col gap-12 py-16 px-4 md:px-6 mt-10 z-10 relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]"
     >
-      <h2 className="text-4xl md:text-5xl font-bold text-center max-w-2xl mx-auto leading-14">
+      <h2 className="lg:text-5xl text-4xl font-bold text-center max-w-2xl mx-auto lg:leading-14 leading-10">
         {t("skills.title", { years: getWorkingYears() })}
       </h2>
 

@@ -57,7 +57,7 @@ const ExperiencesSection = () => {
 
   return (
     <section id="experiences" className="flex flex-col gap-16 py-8">
-      <h2 className="text-5xl font-bold text-center max-w-xl mx-auto leading-14">
+      <h2 className="lg:text-5xl text-4xl font-bold text-center max-w-xl mx-auto lg:leading-14 leading-10">
         {t("experiences.title")}
       </h2>
 
@@ -74,7 +74,7 @@ const ExperiencesSection = () => {
           <img
             src={experiences[0].logo}
             alt={experiences[0].company}
-            className="w-32 h-32 hover:scale-130 transition-all duration-300 object-cover rounded-full"
+            className="lg:w-32 lg:h-32 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-130 transition-all duration-300 object-cover rounded-full"
           />
         </div>
         <div
@@ -89,7 +89,7 @@ const ExperiencesSection = () => {
           <img
             src={experiences[2].logo}
             alt={experiences[2].company}
-            className="w-32 h-32 hover:scale-130 transition-all duration-300 object-cover rounded-full"
+            className="lg:w-32 lg:h-32 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-130 transition-all duration-300 object-cover rounded-full"
           />
         </div>
         <div
@@ -104,7 +104,7 @@ const ExperiencesSection = () => {
           <img
             src={experiences[4].logo}
             alt={experiences[4].company}
-            className="w-32 h-32 hover:scale-130 transition-all duration-300 object-cover rounded-full"
+            className="lg:w-32 lg:h-32 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-130 transition-all duration-300 object-cover rounded-full"
           />
         </div>
 
@@ -121,7 +121,7 @@ const ExperiencesSection = () => {
           <img
             src={experiences[1].logo}
             alt={experiences[1].company}
-            className="w-32 h-32 hover:scale-130 transition-all duration-300 object-cover rounded-full"
+            className="lg:w-32 lg:h-32 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-130 transition-all duration-300 object-cover rounded-full"
           />
         </div>
         <div
@@ -136,7 +136,7 @@ const ExperiencesSection = () => {
           <img
             src={experiences[3].logo}
             alt={experiences[3].company}
-            className="w-32 h-32 hover:scale-130 transition-all duration-300 object-cover rounded-full"
+            className="lg:w-32 lg:h-32 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-130 transition-all duration-300 object-cover rounded-full"
           />
         </div>
       </div>
